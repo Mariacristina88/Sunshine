@@ -47,4 +47,5 @@ In general the CSS syntax is:
 
 ***Personal tip***
 If your project requests many animations and movements, could be useful to make a little sketch or scheme to have a clearer view of the sequence you will create!
+
 ![Sunshine](https://github.com/Mariacristina88/Sunshine/blob/master/sun.jpg)
