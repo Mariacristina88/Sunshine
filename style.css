@@ -1,0 +1,170 @@
+.container {
+	    width: 400px;
+	    height: 600px;
+	}
+
+	.sky {
+	    background-color: #FFD1A3;
+	    width:100%;
+	    height:400px;
+	    z-index:1;
+	    animation: sky 8s ease running infinite;
+	    -webkit-animation: sky 8s ease running infinite;
+	}
+
+	.earth {
+	    background-color: green;
+	    width: 400px;
+	    height: 200px;
+	    z-index:3;
+	    position:absolute;
+	    animation: earth 8s ease running infinite;
+	    -webkit-animation: earth 8s ease running infinite;
+	}
+
+	.sun {
+	    z-index:2;
+	    width:100px;
+	    height:100px;
+	    border-radius: 70px;
+	    background-color:orange;
+	    position:absolute;
+	    top:400px;
+	    left:250px;
+	    animation: sun 8s ease running infinite;
+	    -webkit-animation: sun 8s ease running infinite;
+	}
+
+	.moon {
+	    z-index:2;
+	    width:100px;
+	    height:100px;
+	    border-radius: 70px;
+	    background-color:white;
+	    position:absolute;
+	    top:20px;
+	    left:200px;
+	    animation: moon 8s ease running infinite;
+	    -webkit-animation: moon 8s ease running infinite;
+	}
+
+	.cloud {
+	    width: 100px;
+	    height: 50px;
+	    border-radius:100px;
+	    position:absolute;
+	    opacity:0.5;
+	    background-color:white;
+	    z-index:2;
+	    top: 20px;
+	    animation: cloud 8s ease running infinite;
+	    -webkit-animation: cloud 8s ease running infinite;
+
+	}
+	.cloud2 {
+	    width: 100px;
+	    height: 50px;
+	    border-radius:100px;
+	    position:absolute;
+	    opacity:0.5;
+	    background-color:white;
+	    z-index:2;
+	    top: 35px;
+	    left: 35px;
+	    animation: cloud2 8s ease running infinite;
+	    -webkit-animation: cloud2 8s ease running infinite;
+	}
+
+	/* Standard Syntax */
+
+	@keyframes sky {
+	    0% {background-color:#FFD1A3;}
+	    50% {background-color:#94DBFF;}
+	    100% {background-color:#00527A;}
+	}
+
+	@keyframes sun {
+	    0% {top:400px;
+	        left:250px;}
+	    50% {top:20px;}
+	    100% {top:430px;
+	          left:20px;}
+	}
+
+	@keyframes cloud {
+		0% {top: 35px;
+	        left: 500px;}
+	  
+	    100% {top: 35px;
+	          left: 35px;}
+	}
+
+	@keyframes cloud2 {
+		0% {top: 50px;
+	        left: 500px;}
+	  
+	    100% {top: 50px;
+	        left: 60px;}
+	}
+
+	@keyframes moon {
+		0% {top:-200px;
+	        left:200px;}
+	    80% {top:-100px;}
+	    100% {top:30px;
+	          left:250px;}
+	}
+
+	@keyframes earth {
+		0% {background-color:green;}
+		80% {background-color:green;}
+	    100% {background-color:#472400;}
+	}
+
+	/* Chrome, Safari, Opera */
+
+	@-webkit-keyframes earth {
+	    0% {background-color:green;}
+	    80% {background-color:green;}
+	    100% {background-color:#472400;}
+	}
+
+	@-webkit-keyframes sky {
+	    0% {background-color:#FFD1A3;}
+	    50% {background-color:#94DBFF;}
+	    100% {background-color:#00527A;}
+	}
+
+
+	@-webkit-keyframes sun {
+	    0% {top:400px;
+	        left:250px;}
+	    50% {top:20px;
+	        left:150px}
+	    100% {top:430px;
+	          left:20px;}
+	}
+
+	@-webkit-keyframes cloud {
+	    0% {top: 35px;
+	        left: 500px;}
+	  
+	    100% {top: 35px;
+	          left: 35px;}
+	}
+
+	@-webkit-keyframes cloud2 {
+	    0% {top: 50px;
+	        left: 500px;}
+	  
+	    100% {top: 50px;
+	        left: 60px;}
+	}
+
+	@-webkit-keyframes moon {
+	    0% {top:-200px;
+	        left:200px;}
+	    80% {top:-100px;}
+	    100% {top:30px;
+	          left:250px;}
+	}
