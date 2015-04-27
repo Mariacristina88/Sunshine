@@ -7,8 +7,6 @@
 The @keyframes technology lets us control all the steps of a CSS animation through the use of keyframes which we must assign. We get more control of the animation sequence by deciding when the animation has to start and when has to finish. 
 We have to assign a name to the @keyframe rule which is then used by the “animation-name” property to connect the animation to its keyframe list.
 In the keyframe list can specify the start/end points in percent (0% as start and 100% as end) or using the keywords “from” and “to”.
-![Sunshine](https://github.com/Mariacristina88/Sunshine/blob/master/sun.jpg)
-----------------------------------------------------------------------
 
 <pre lang="css">
 @keyframes myname {
@@ -46,3 +44,7 @@ We can have many Keyframe selectors in one animation but when a keyframe is defi
 
 In general the CSS syntax is:
 @keyframe animation-name {keyframe selector {CSS-style;}}
+
+***Personal tip***
+If your project requests many animations and movements, could be useful to make a little sketch or scheme to have a clearer view of the sequence you will create!
+![Sunshine](https://github.com/Mariacristina88/Sunshine/blob/master/sun.jpg)
