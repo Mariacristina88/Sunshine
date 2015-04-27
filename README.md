@@ -1,4 +1,4 @@
-#How create a gradual animation with CSS using @keyframes.
+##How create a gradual animation with CSS using @keyframes.
 **Name:** Maria Cristina Di Termine
 **Category:** CSS3 Animations
 
@@ -45,7 +45,7 @@ We can have many Keyframe selectors in one animation but when a keyframe is defi
 In general the CSS syntax is:
 @keyframe animation-name {keyframe selector {CSS-style;}}
 
-***Personal tip***
+###Personal tip
 If your project requests many animations and movements, could be useful to make a little sketch or scheme to have a clearer view of the sequence you will create!
 
 ![Sunshine](https://github.com/Mariacristina88/Sunshine/blob/master/sun.jpg)
